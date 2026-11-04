@@ -1,0 +1,25 @@
+Modelo,Tensor,Categoría,Tipo,N.º escalas,Scale mínimo,Scale máximo,Zero points,Eje cuantizado
+M4,seno_tinyml_1/dense_11_1/Add,Interno,int32,1,0.00011250544775975868,0.00011250544775975868,[0],0
+M4,seno_tinyml_1/dense_11_1/MatMul,Interno,int8,1,0.014400697313249111,0.014400697313249111,[0],0
+M4,seno_tinyml_1/dense_10_1/BiasAdd,Interno,int32,16,2.7798318114946596e-05,5.7075587392318994e-05,[0],0
+M4,seno_tinyml_1/dense_10_1/MatMul,Interno,int8,16,0.0035581847187131643,0.007305675186216831,[0],0
+M4,seno_tinyml_1/dense_9_1/BiasAdd,Interno,int32,16,2.402131758572068e-05,0.00018556711438577622,[0],0
+M4,seno_tinyml_1/dense_9_1/MatMul,Interno,int8,16,0.0009748933371156454,0.007531150244176388,[0],0
+M4,tfl.quantize,Interno,int8,1,0.02463994361460209,0.02463994361460209,[-128],0
+M4,seno_tinyml_1/dense_9_1/MatMul;seno_tinyml_1/dense_9_1/BiasAdd,Interno,int8,1,0.04106397554278374,0.04106397554278374,[-4],0
+M4,seno_tinyml_1/dense_9_1/Tanh,Interno,int8,1,0.0078125,0.0078125,[0],0
+M4,seno_tinyml_1/dense_10_1/MatMul;seno_tinyml_1/dense_10_1/BiasAdd,Interno,int8,1,0.018104033544659615,0.018104033544659615,[-11],0
+M4,seno_tinyml_1/dense_10_1/Tanh,Interno,int8,1,0.0078125,0.0078125,[0],0
+M4,StatefulPartitionedCall_1:01,Interno,int8,1,0.007914850488305092,0.007914850488305092,[-2],0
+M5,serving_default_keras_tensor_12:0,Entrada,int8,1,0.02463994361460209,0.02463994361460209,[-128],0
+M5,seno_tinyml_1/dense_11_1/Add,Interno,int32,1,0.00011250544775975868,0.00011250544775975868,[0],0
+M5,seno_tinyml_1/dense_11_1/MatMul,Interno,int8,1,0.014400697313249111,0.014400697313249111,[0],0
+M5,seno_tinyml_1/dense_10_1/BiasAdd,Interno,int32,16,2.7798318114946596e-05,5.7075587392318994e-05,[0],0
+M5,seno_tinyml_1/dense_10_1/MatMul,Interno,int8,16,0.0035581847187131643,0.007305675186216831,[0],0
+M5,seno_tinyml_1/dense_9_1/BiasAdd,Interno,int32,16,2.402131758572068e-05,0.00018556711438577622,[0],0
+M5,seno_tinyml_1/dense_9_1/MatMul,Interno,int8,16,0.0009748933371156454,0.007531150244176388,[0],0
+M5,seno_tinyml_1/dense_9_1/MatMul;seno_tinyml_1/dense_9_1/BiasAdd,Interno,int8,1,0.04106397554278374,0.04106397554278374,[-4],0
+M5,seno_tinyml_1/dense_9_1/Tanh,Interno,int8,1,0.0078125,0.0078125,[0],0
+M5,seno_tinyml_1/dense_10_1/MatMul;seno_tinyml_1/dense_10_1/BiasAdd,Interno,int8,1,0.018104033544659615,0.018104033544659615,[-11],0
+M5,seno_tinyml_1/dense_10_1/Tanh,Interno,int8,1,0.0078125,0.0078125,[0],0
+M5,StatefulPartitionedCall_1:0,Salida,int8,1,0.007914850488305092,0.007914850488305092,[-2],0
