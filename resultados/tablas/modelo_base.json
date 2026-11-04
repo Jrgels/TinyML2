@@ -1,0 +1,10 @@
+{
+  "seed": 2026,
+  "tensorflow": "2.21.0",
+  "numpy": "2.4.6",
+  "epocas": 118,
+  "parametros": 321,
+  "tflite_int8_bytes": 3728,
+  "rmse_fp32": 0.013900681398808956,
+  "rmse_int8": 0.07502491027116776
+}
