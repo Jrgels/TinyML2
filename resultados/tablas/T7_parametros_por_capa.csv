@@ -1,0 +1,16 @@
+Modelo,Capa,Pesos,Sesgos,Tipo pesos,Tipo sesgos,Tipo usado por FC,N.º escalas pesos
+M1,Dense 1,16,16,float32,float32,float32,0
+M1,Dense 2,256,16,float32,float32,float32,0
+M1,Dense 3,16,1,float32,float32,float32,0
+M2,Dense 1,16,16,float32,float32,float32,0
+M2,Dense 2,256,16,float32,float32,float32,0
+M2,Dense 3,16,1,float32,float32,float32,0
+M3,Dense 1,16,16,float32,float32,float32,0
+M3,Dense 2,256,16,float32,float32,float32,0
+M3,Dense 3,16,1,float32,float32,float32,0
+M4,Dense 1,16,16,int8,int32,int8,16
+M4,Dense 2,256,16,int8,int32,int8,16
+M4,Dense 3,16,1,int8,int32,int8,1
+M5,Dense 1,16,16,int8,int32,int8,16
+M5,Dense 2,256,16,int8,int32,int8,16
+M5,Dense 3,16,1,int8,int32,int8,1
